@@ -27,7 +27,7 @@ const StyledButton = styled(Button)`
     background-color: ${darken(theme.palette.primary.main, 0.2)};
   }
   ${theme.breakpoints.up('sm')} {
-    font-size: 14px;
+    font-size: 1px;
     padding: 7px 14px;
   }
   `}
