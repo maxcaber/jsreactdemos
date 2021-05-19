@@ -2,7 +2,7 @@
 
 const user = {
   name: 'Tyler',
-  age: 27,
+  age: 28,
   greet() {
     alert(`Hello, my name is ${this.name}`)
   },
