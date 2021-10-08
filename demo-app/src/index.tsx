@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FromOldToNewReact from './FromOldToNewReact';
+import HocDemo from './hoc/HocDemo';
 import './index.css';
 import MUIGridDemo from './mui-demos/MUIGridDemo';
 import App from './shopping-cart/redux/app';
@@ -8,7 +9,7 @@ import App from './shopping-cart/redux/app';
 // import StyledComponentsTheme from './mui-demos/StyledComponentsTheme';
 
 ReactDOM.render(
-  <MUIGridDemo />
+  <HocDemo />
   ,
   document.getElementById('root')
 );
